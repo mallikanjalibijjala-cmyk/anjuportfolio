@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>Skills</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    background: linear-gradient(135deg,#be1167,#db88b6,#bb4698);
+    background-size:400%;
+}
+body{
+    padding-top:80px;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:fixed;
+    width:100%;
+    top:0;
+    left:0;
+    backdrop-filter:blur(12px);
+    background:rgba(238,182,224,0.6);
+    z-index:1000;
+}
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:10px;
+    margin:0;
+}
+nav h1{
+       color: black;
+      font-weight: 700;  
+      }
+nav ul li a{
+          text-decoration: none;
+          color: white;
+          font-weight: 500;
+            transition: 0.3s;
+        }
+nav ul li a:hover{
+            color: black;
+            }
+
+.anju{
+    margin-top:100px;
+    text-align:center;
+}
+
+.anju1{
+    width:420px;
+    background:rgba(255,255,255,0.1);
+    backdrop-filter:blur(20px);
+    padding:40px;
+    border-radius:25px;
+    border:1px solid rgba(255,255,255,0.2);
+    box-shadow:0 20px 50px rgba(0,0,0,0.6);
+    color:white;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+.skills h4{
+    background:#db88b6;
+    padding:10px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.skills h4:hover{
+    transform:scale(1.05);
+}
+
+/* Footer */
+
+footer{
+    margin-top:100px;
+    color:white;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+   
+<h1>Mallikanjali.Bijjala</h1>
+ <ul>
+<li><a href="about.html">About</a></li>
+<li><a href="skills.html">Skills</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+
+</nav>
+</header>
+
+<main>
+<section class="anju">
+
+<h1>My Skills</h1><br>
+
+<div class="anju1">
+
+<div class="skills">
+<h4>C Language</h4>
+<h4>OOPs Java</h4>
+<h4>Python</h4>
+<h4>HTML, CSS, JavaScript</h4>
+</div>
+
+</div>
+
+</section>
+</main>
+<footer>
+&copy; Mallikanjali | My Portfolio
+</footer>
+
+</body>
+</html>
